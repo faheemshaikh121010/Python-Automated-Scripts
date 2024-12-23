@@ -7,6 +7,7 @@ This is the test line to see automation.
 =======
 I have updated the readme file in feature.
 >>>>>>> 5c627676a4b8e515124d91c6615220a2743b2e86
+>>>>>>> I want to see changes 
 
 Thank You,
 Faheem Shaikh
