@@ -4,10 +4,14 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 import csv
 import time
+import json
 
-# Configuration
-linkedin_username = "faheemshaikh1210@gmail.com"
-linkedin_password = "F@heem786"
+# Load LinkedIn credentials from config.json
+with open('config.json') as config_file:
+    config = json.load(config_file)
+
+linkedin_username = config['linkedin_username']
+linkedin_password = config['linkedin_password']
 search_query = "HR DevOps Engineer hiring"
 output_file = "hr_emails.csv"
 
